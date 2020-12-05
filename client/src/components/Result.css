@@ -1,0 +1,32 @@
+.result {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    opacity: 0.95;
+    color: white;
+    width: 70vw;
+    height: auto;
+    background-color: grey;
+    margin: 30px auto auto auto;
+}
+
+.image-group {
+    margin: auto auto auto 30px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.text-group {
+    margin: auto;
+    padding: 30px;
+}
+
+@media(max-width: 768px) {
+    .result {
+        flex-direction: column;
+    }
+    .image-group {
+        margin: auto;
+    }
+}
