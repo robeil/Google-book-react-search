@@ -13,6 +13,7 @@ A React-based Google Books Search App, demonstrating full MERN-stack capabilitie
  * [Installation](#Installation)
  * [Usage](#Usage)
  * [License](#License)
+ * [Screenshot](#Screenshot)
  * [Contributing](#Contributing)
 
   ## Installation
@@ -37,7 +38,9 @@ Use the search page to find and add books to your saved collection.
 On the saved page, click on each book to learn more, mark them as read,
 or remove them from your collection entirely.
  ```
+  ## Screenshot
 
+  ![Screen-12-7-2020_10927_PM (2)](https://user-images.githubusercontent.com/65261399/101406013-c1ecd500-388d-11eb-9a0a-0ba418b43b06.png)
   ## License
 
   [MIT](./LICENSE)
