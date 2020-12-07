@@ -1,8 +1,8 @@
-const axios = require('axios');
 const mongoose = require("mongoose");
 const { BooksCollection } = require("../models");
-const BOOKSAPIKEY = process.env.BOOKSAPIKEY;
-mongoose.connect(process.env.DBURI || "mongodb://localhost/react-google-book-search", {
+
+
+mongoose.connect(process.env.DBURI || "mongodb://localhost/lessondb", {
   useNewUrlParser: true,
   useFindAndModify: false
 });
