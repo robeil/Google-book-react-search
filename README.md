@@ -17,7 +17,7 @@ A React-based Google Books Search App, demonstrating full MERN-stack capabilitie
 
   ## Installation
 
-1. Fork the [repo](https://github.com/GAFelton/books-search-react-app).
+1. Fork the [repo](https://github.com/Robeil/Google-book-react-search.git).
 
 2. Clone the repo to your local machine.
 
