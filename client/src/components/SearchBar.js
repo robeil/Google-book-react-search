@@ -14,10 +14,11 @@ export default function SearchBar(props) {
         getBooksOnline(completeUrl)
         .then(res => {
             if (res) {
-                props.setBooks(res.data.items)
+                props.setBooks(res.data.items);
             }
-            console.log(res.data.items, "book result...") //? res ???
+            
         })
+        .catch(err => console.log(err));
     }
 
     return (
