@@ -4,7 +4,6 @@ import * as ReactBootstrap from 'react-bootstrap';
 import SearchBar from '../components/SearchBar';
 
 
-
 export default function Header({setBooks}) {
     const handleSavedBooks = (e) => {
         getBooksDB()
