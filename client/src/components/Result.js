@@ -29,6 +29,7 @@ export default function Result(props) {
             }
             saveBooksDB(data)
                 .then(res => {
+                    // eslint-disable-next-line array-callback-return
                     props.books.map((book) => {
                         if (book.id === data.onlineId) {
                             tempArray.push(data)
