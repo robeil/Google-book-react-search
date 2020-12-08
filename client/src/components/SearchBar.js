@@ -23,7 +23,7 @@ export default function SearchBar(props) {
 
     return (
         <Form>
-            <Row style={{paddingTop: '60px', margin: 'auto', paddingLeft: '5%', paddingRight: '5%'}}>
+            <Row className="mx-auto" style={{paddingTop: '60px', margin: 'auto', paddingLeft: '5%', paddingRight: '5%'}}>
                 <Col>
                 <Form.Control placeholder="Book Name" onChange={(e) => {setSearchStr(e.target.value)}}/>
                 </Col>
