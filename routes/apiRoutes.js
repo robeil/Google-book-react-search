@@ -4,9 +4,10 @@ const { BooksCollection } = require("../models");
 
 mongoose.connect(process.env.DBURI || "mongodb://localhost/lessondb", {
   useNewUrlParser: true,
+  useUnifiedTopology: true,
+  useCreateIndex: true,
   useFindAndModify: false
 });
-
 module.exports = function (app) {
     
     app.post("/api/save", ({body}, res) => {
