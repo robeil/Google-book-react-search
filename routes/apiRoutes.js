@@ -1,11 +1,10 @@
+const axios = require('axios');
 const mongoose = require("mongoose");
 const { BooksCollection } = require("../models");
-
+const BOOKSAPIKEY = process.env.BOOKSAPIKEY;
 
 mongoose.connect(process.env.DBURI || "mongodb://localhost/lessondb", {
   useNewUrlParser: true,
-  useUnifiedTopology: true,
-  useCreateIndex: true,
   useFindAndModify: false
 });
 module.exports = function (app) {

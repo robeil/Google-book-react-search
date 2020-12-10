@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState}  from 'react';
 import {getBooksDB} from '../utils/API';
 import * as ReactBootstrap from 'react-bootstrap';
 import SearchBar from '../components/SearchBar';
@@ -12,6 +12,7 @@ export default function Header({setBooks}) {
     const handleBookSearch = (e) => {
         setBooks([]);
     }
+    const [books] = useState([]);
     return (
         <ReactBootstrap.Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
             <ReactBootstrap.Navbar.Brand href="#">Google Book Search</ReactBootstrap.Navbar.Brand>
@@ -21,7 +22,7 @@ export default function Header({setBooks}) {
                 <ReactBootstrap.Nav.Link onClick={handleSavedBooks}>Saved Books</ReactBootstrap.Nav.Link>
                 <ReactBootstrap.Nav.Link onClick={handleBookSearch}>Search New Books</ReactBootstrap.Nav.Link>
             </ReactBootstrap.Nav>
-            <SearchBar />
+            <SearchBar books={books} setBooks={setBooks}></SearchBar>
             </ReactBootstrap.Navbar.Collapse>
         </ReactBootstrap.Navbar>
         );
