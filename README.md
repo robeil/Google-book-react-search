@@ -39,8 +39,11 @@ On the saved page, click on each book to learn more, mark them as read,
 or remove them from your collection entirely.
  ```
   ## Screenshot
-
-  ![Screen-12-7-2020_10927_PM (2)](https://user-images.githubusercontent.com/65261399/101406013-c1ecd500-388d-11eb-9a0a-0ba418b43b06.png)
+   
+  * laptop ![Screen-12-7-2020_10927_PM (2)](https://user-images.githubusercontent.com/65261399/101406013-c1ecd500-388d-11eb-9a0a-0ba418b43b06.png)
+  * laptop ![Screen-12-9-2020_72727_PM (2)](https://user-images.githubusercontent.com/65261399/101718431-088d2b80-3a56-11eb-9c36-ee9249de626a.png)
+  * ipad ![Screen-12-9-2020_73158_PM (2)](https://user-images.githubusercontent.com/65261399/101718493-26f32700-3a56-11eb-91ff-4f9b31f2c046.png)
+  * iphone x ![Screen-12-9-2020_73246_PM (2)](https://user-images.githubusercontent.com/65261399/101718511-35414300-3a56-11eb-8d16-dd1b95f2c7de.png)
   ## License
 
   [MIT](./LICENSE)
